@@ -38,6 +38,9 @@ Aide : les rotations (pitch, yaw et roll) ne sont pas en radian mais en degré c
 Aide : utilisez la fonction de lissage des values (stabilizedValues) pour avoir des valeurs plus stables
 Aide : commencez par calibrer les rotations une par une. Diminuez le frame rate pour mieux voir ce qui se passe
 
+[Pitch, Yaw, Roll]()http://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics))
+
+
 # Super collider
 
 http://www.erase.net/projects/processing-sc/
