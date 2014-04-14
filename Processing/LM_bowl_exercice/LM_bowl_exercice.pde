@@ -32,7 +32,7 @@ void drawSphere(PVector center, float radius) {
     pointLight(51, 102, 126, 0, 1, 0);
     translate(center.x, center.y, center.z/10*-1);
     stroke( color(192,255,192));
+    scale((-1*center.z/100) + 0.8);
     sphere(radius);
     popMatrix();
 }
-

@@ -3,7 +3,7 @@ import de.voidplus.leapmotion.*;
 LeapMotion leap;
 
 void setup(){
-    size(640,360,OPENGL);    
+    size(640,360,P3D);    
     background(0);
     noStroke(); 
     fill(50);
@@ -42,6 +42,7 @@ void drawSphere(PVector center, float radius) {
     pointLight(51, 102, 126, 0, 1, 0);
     translate(center.x, center.y, center.z/10*-1);
     stroke( color(192,255,192));
+    scale((-1*center.z/100) + 0.8);
     sphere(radius);
     popMatrix();
 }
