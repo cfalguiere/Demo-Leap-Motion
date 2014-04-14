@@ -20,8 +20,10 @@ https://github.com/voidplus/leap-motion-processing
 
 https://developer.leapmotion.com/documentation/java/api/Leap.Vector.html
 
+Vous pouvez vous aider des deux exemples fournis.
+
 ## tutorial 1
-tracez une ligne avec votre doigt, effacez en faisant un cercle
+tracez une ligne avec votre doigt, effacez l'écran en faisant  plusieurs swipes
 
 ## tutorial 2
 Représentez le cercle que contient votre main
